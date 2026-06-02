@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+title: "dd-mockdata: A Synthetic German Legal Due-Diligence Corpus"
+message: "If you use this dataset, please cite it as below."
+type: dataset
+authors:
+  - family-names: Ohrendorf
+    given-names: Marc
+repository-code: "https://github.com/marcohrendorf/dd-mockdata"
+abstract: >-
+  dd-mockdata is a synthetic corpus of 6,265 German-language legal and business
+  documents (DOCX, XLSX, PDF) modelled on M&A / due-diligence data rooms for
+  three fictional companies of varying scale: Halbreiter Maschinenbau GmbH
+  (mittelständischer Sondermaschinenbau, ~300 documents), Sentavia Precision
+  GmbH (Medizinprodukte-Wachstumsunternehmen, ~935 documents) and Brennhagen
+  Elektronik AG (börsennotierte Automotive-Holding mit 6 Tochterwerken,
+  ~5,000 documents). All entities, persons, contracts, financial figures and
+  identifiers are fictional. The dataset is intended for legal-tech research,
+  including information extraction, retrieval-augmented generation (RAG)
+  evaluation, document classification, named-entity recognition, knowledge
+  graph construction, and benchmarking long-context models on realistic
+  German legal/business prose.
+keywords:
+  - legal-tech
+  - due-diligence
+  - german
+  - synthetic-dataset
+  - information-extraction
+  - retrieval-augmented-generation
+  - document-understanding
+license: "MIT AND CC-BY-4.0"
+license-url: "https://github.com/marcohrendorf/dd-mockdata/blob/main/LICENSE"
+date-released: 2026-06-01
+version: "1.0.0"
